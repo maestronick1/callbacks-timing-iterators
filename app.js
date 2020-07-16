@@ -94,4 +94,35 @@ setTimeout(function(){
     printname(mayNameTwo);
 }, 7000);
 
+//iterators
+//foreach
+
+const collectables = ['Bomag', 'CMI Corp, "Wirtgren', 'Catepillar']
+
+
+//collectables.forEach(element, function()){
+ //   console.log(element);
+//});
+     collectables.forEach(element => {
+         if (element.length > 6) {
+         console.log(element);
+     }   
+});
+
+//map
+
+const someNumbers =[ 24, 34, 65, 347];
+
+someNumbers.map(element => {
+    return element + 5;
+});
+
+// filter ( returns what you filter out)
+
+someNumbersNumbers.Filter(element => {
+    if (element > 50) {
+        return element;
+    }
+});
+console.log(filteredNumbers);
 
