@@ -43,3 +43,23 @@ subtractNumbers = (num1, num2) => {
 }
 
 console.log(calculator(5, 77, addNumbers, subtractNumbers))
+
+//super hero function
+
+function superHero(power1, power2) {
+    let allsuperPowers = superpowerOne + 'and' + superPowerTwo();
+
+    return allsuperPowers;
+
+    function superSpeed(){
+        let power = " run fast"
+
+        return power;
+
+    }
+    function superspin()
+    let spin = ' i can spin 1000 mph';
+     return spin;
+
+}
+console.log (sonic(super-speed, superSpin));
