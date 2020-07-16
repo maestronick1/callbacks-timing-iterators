@@ -63,3 +63,26 @@ function superHero(power1, power2) {
 
 }
 console.log (sonic(super-speed, superSpin));
+
+function blastOff() {
+    let num = 0;
+
+    for(let i = 10; i >= num; i--) {
+        console.log(i); // 10, 9, 8, 7, 6, 5, ..
+    }
+    console.log("blast off!")
+} 
+     setTimeout(blastOff, 5000 ;)
+
+     function sayName(){
+         let num =0;
+         for(let i=10; i>= num; i--0 {
+             console.log(i);         })
+
+         }
+console.log(sayName("Nick P!"))
+    
+setTimeout(blastOff, 7000) ;
+
+        
+
