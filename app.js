@@ -83,6 +83,15 @@ function blastOff() {
 console.log(sayName("Nick P!"))
     
 setTimeout(blastOff, 7000) ;
+ 
+//correction
 
-        
+function sayName(name)
+    console.log(name):
+
+let myNameTwo = 'Nick';
+setTimeout(function(){
+    printname(mayNameTwo);
+}, 7000);
+
 
